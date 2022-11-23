@@ -4,8 +4,15 @@ import AnimatedLottieView from "lottie-react-native";
 import pokemonAnimation from "./pokemon.json";
 import * as S from "./style";
 import { Button } from "../../components/Button";
+import { useNavigation } from "@react-navigation/native";
 
 export function Welcome() {
+  const { navigate } = useNavigation();
+
+  const handleNavigation = () => {
+    navigate("Home");
+  };
+
   return (
     <S.Container>
       <S.Content>
@@ -24,7 +31,7 @@ export function Welcome() {
         <S.SubTitle>Matheus</S.SubTitle>
       </S.Content>
       <S.Footer>
-        <Button title="Iniciar" />
+        <Button title="Iniciar" onPress={handleNavigation} />
       </S.Footer>
     </S.Container>
   );

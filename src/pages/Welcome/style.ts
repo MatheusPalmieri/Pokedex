@@ -45,7 +45,7 @@ export const Title = styled.Text`
   ${({ theme }) => css`
     margin-top: 20px;
     font-size: 36px;
-    color: ${theme.colors.text_white};
+    color: ${theme.colors.background};
   `}
 `;
 
@@ -53,6 +53,6 @@ export const SubTitle = styled.Text`
   ${({ theme }) => css`
     margin-top: 20px;
     font-size: 18px;
-    color: ${theme.colors.text_white};
+    color: ${theme.colors.background};
   `}
 `;

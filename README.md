@@ -11,7 +11,7 @@ react navigation expo install react-native-screens react-native-safe-area-contex
 
 <!-- Descrição -->
 
-<p align="center">em desenvolvimento...</p>
+<p align="center">Listagem de pokemons através da API pokedéx feita em TypeScript.</p>
 
 <!-- Súmario -->
 
@@ -66,6 +66,7 @@ $ npm install
 
 # Para startar projeto
 $ expo start
+```
 
 ---
 
@@ -88,5 +89,3 @@ Create for <b>`Matheus Palmieri`</b>👨‍💻
 <br>
 
 <p align="center">🎉Projeto Pokédex em React Native / Expo Concluída</p>
-
-```

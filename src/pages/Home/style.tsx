@@ -25,5 +25,6 @@ export const Title = styled.Text`
     color: ${theme.colors.light_text};
     line-height: 38px;
     font-weight: bold;
+    margin-top: -100px;
   `}
 `;

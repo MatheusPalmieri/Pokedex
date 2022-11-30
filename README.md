@@ -27,7 +27,13 @@ react navigation expo install react-native-screens react-native-safe-area-contex
 
 ### Rodando A Aplicação
 
-<!-- <a href="https://matheuspalmieri-pokedex.netlify.app/" target="_blank">Site do Projeto</a> -->
+<br>
+
+### Requirimentos
+
+- [Node](https://nodejs.org/en/)
+- [Yarn](https://classic.yarnpkg.com/lang/en/) or [Npm](https://www.npmjs.com/)
+
 <br>
 
 ### Instalando o "Expo"
@@ -35,10 +41,31 @@ react navigation expo install react-native-screens react-native-safe-area-contex
 ```
 npm i expo-cli
 ```
-ou
+
+or
+
 ```
 yarn add expo-cli
 ```
+
+<br>
+
+### Clone o repositório e acesse a pasta
+
+```
+$ git clone https://github.com/MatheusPalmieri/Pokedex && cd Pokedex
+```
+
+<br>
+
+### Siga as etapas para rodar o Projeto em sua máquina local
+
+```
+# Para instalar as dependências necessárias
+$ npm install
+
+# Para startar projeto
+$ expo start
 
 ---
 
@@ -50,8 +77,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Styled-Components](https://styled-components.com/)
-- [Lottie](https://lottiefiles.com/)
-- [](fffffffffffffffff)
 
 ---
 
@@ -62,5 +87,6 @@ Create for <b>`Matheus Palmieri`</b>👨‍💻
 <br>
 <br>
 
-<p align="center">🎉Projeto Pokédex em React Native em Desenvolvimento🚀</p>
+<p align="center">🎉Projeto Pokédex em React Native / Expo Concluída</p>
 
+```
